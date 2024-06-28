@@ -1,0 +1,44 @@
+css
+Copy code
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fce4ec; /* Light pink background */
+}
+
+.container {
+    text-align: center;
+    background: #f8bbd0; /* Light mauve background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    margin: 0 0 10px;
+    color: #ad1457; /* Deep pink color */
+    font-size: 2.5em;
+}
+
+.container p {
+    margin: 5px 0;
+    color: #880e4f; /* Dark mauve color */
+    font-size: 1.2em;
+}
+
+.email a, .hng a {
+    color: #c2185b; /* Vibrant pink color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email a:hover, .hng a:hover {
+    text-decoration: underline;
+}
